@@ -1,0 +1,9 @@
+To recompile using powershell, run this command from the judo-heroes folder: 
+
+set NODE_ENV=production | node_modules/.bin/webpack
+ -p
+
+ To start web server, run this from the node_modules/.bin/ folder: 
+
+ http-server ../../src/static
+
